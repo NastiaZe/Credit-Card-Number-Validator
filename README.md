@@ -5,12 +5,11 @@
 
 Всего  затрачено времени : 2 часа
 
-##В результате тестирования выявлены следующие дефекты:
+### В результате тестирования выявлены следующие дефекты:
 
-[Дефект №1](https://github.com/NastiaZe/Credit-Card-Number-Validator/issues/1)
-  [Дефект №2](https://github.com/NastiaZe/Credit-Card-Number-Validator/issues/2)
-
-[Дефект №3](https://github.com/NastiaZe/Credit-Card-Number-Validator/issues/3)
+[Дефект №1  [При проверке валидности карт обнаружена не валидная карта "JCB"](https://github.com/NastiaZe/Credit-Card-Number-Validator/issues/1)
+  [Дефект №2 [При проверке валидности карт обнаружена не валидная карта "Diners Club""](https://github.com/NastiaZe/Credit-Card-Number-Validator/issues/4)
+[Дефект №3 [При проверке валидности карт обнаружена не валидная карта "AmericanExpress"](https://github.com/NastiaZe/Credit-Card-Number-Validator/issues/3) 
 
 ## Описание процесса тестирования
 
@@ -54,9 +53,10 @@ public class Main {
 
     return (result != 0) && (result % 10 == 0);
   }
+
 3. [Сайт] (https://www.getcreditcardnumbers.com/generated-credit-card-numbers)
 
-В качестве тестовых данных использовались данные:номера кредитных карт:
+4. В качестве тестовых данных использовались данные:номера кредитных карт:
 5242581325387609
 4539104901430753
 4532446052135815
